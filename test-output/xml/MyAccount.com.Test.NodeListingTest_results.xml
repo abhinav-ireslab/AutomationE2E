@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="NodeListing"
+           tests="5"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="120.007">
+  <properties />
+  
+  
+            <testcase name="accessconsolelink" time="36.171" classname="MyAccount.com.Test.NodeListingTest" />
+                <testcase name="rebootnode" time="22.362" classname="MyAccount.com.Test.NodeListingTest" />
+                <testcase name="unlocktest" time="14.456" classname="MyAccount.com.Test.NodeListingTest" />
+                <testcase name="nodelisttesting" time="19.297" classname="MyAccount.com.Test.NodeListingTest" />
+                <testcase name="poweroffbutton" time="27.721" classname="MyAccount.com.Test.NodeListingTest" />
+      
+</testsuite>

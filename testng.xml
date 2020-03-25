@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" configfailurepolicy="skip">
+
+	<listeners>
+
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+
+		<listener
+			class-name="org.uncommons.reportng.JUnitXMLReporter" />
+
+	</listeners>
+
+ 	<test name="Login">
+		<classes>
+			<class name="MyAccount.com.Test.LoginPageTest" />
+		</classes>
+	</test>
+	
+		<test name="CreateNode">
+		<classes>
+			<class name="MyAccount.com.Test.CreateNodePageTest" />
+		</classes>
+	</test> 
+	
+	<test name="NodeListing">
+		<classes>
+			<class name="MyAccount.com.Test.NodeListingTest" />
+		</classes>
+	</test>
+	
+	<test name="NodeListing">
+		<classes>
+			<class name="MyAccount.com.Test.WordPressPageTest" />
+		</classes>
+	</test>
+
+</suite> <!-- Suite -->
